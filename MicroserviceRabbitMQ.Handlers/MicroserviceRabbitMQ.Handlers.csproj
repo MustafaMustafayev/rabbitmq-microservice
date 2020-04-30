@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TransferApiHandlers\TransferLogHandlers\Commands\" />
+    <Folder Include="TransferApiHandlers\TransferLogHandlers\CommandHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroserviceRabbitMQ.Core\MicroserviceRabbitMQ.Core.csproj" />
+    <ProjectReference Include="..\MicroserviceRabbitMQ.DAL\MicroserviceRabbitMQ.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
