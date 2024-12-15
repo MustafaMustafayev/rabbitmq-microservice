@@ -1,2 +1,2 @@
-> Implemented producer and consumer code for RabbitMQ using .Net
-> Project developed using n tier architecture
+> Implemented producer and consumer code for RabbitMQ using .Net framework.
+> Project developed using n tier architecture.
